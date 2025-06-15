@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
   return {
     title: asText(page.data.title),
-    description: page.data.meta_description,
+    // description: page.data.meta_description,
     openGraph: {
       title: page.data.meta_title ?? undefined,
       images: [{ url: page.data.meta_image.url ?? "" }],

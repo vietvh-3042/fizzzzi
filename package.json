@@ -21,12 +21,9 @@
     "@prismicio/client": "^7.17.2",
     "@prismicio/next": "^2.0.1",
     "@prismicio/react": "^3.2.1",
-    "@tailwindcss/postcss": "^4.1.6",
     "next": "^15.1.6",
-    "postcss": "^8.5.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwindcss": "^4.1.6"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
@@ -35,11 +32,13 @@
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.28.0",
     "@slicemachine/adapter-next": "^0.3.78",
+    "@tailwindcss/postcss": "^4.1.10",
     "@types/node": "^24.0.1",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@typescript-eslint/eslint-plugin": "^8.34.0",
     "@typescript-eslint/parser": "^8.34.0",
+    "clsx": "^2.1.1",
     "commitlint-plugin-function-rules": "^4.0.2",
     "concurrently": "^9.1.2",
     "eslint": "^9.28.0",
@@ -57,10 +56,13 @@
     "globals": "^16.2.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.0",
+    "postcss": "^8.5.5",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.12",
     "rimraf": "^6.0.1",
     "slice-machine-ui": "^2.16.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.10",
     "typescript": "^5.8.3"
   }
 }
