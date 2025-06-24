@@ -64,7 +64,7 @@ const Hero: FC<HeroProps> = ({ slice }) => {
       .fromTo(
         "body",
         {
-          backgroundColor: "#FDE407",
+          backgroundColor: "#FDE047",
         },
         {
           backgroundColor: "#D9F99D",
